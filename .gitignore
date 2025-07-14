@@ -1,1 +1,38 @@
+# --------------- [ ROS İgnore ] ---------------
+**/build/
+**/devel/
+**/install/
 
+**/.catkin_workspace
+**/catkin_make.cache
+
+# --------------- [ Logs & Temporary Files ] ---------------
+*.log
+*.jou
+*.bag
+*.bag.active
+*.cache
+
+# --------------- [ Python ] ---------------
+__pycache__/
+*.pyc
+
+# --------------- [ IDEs ] ---------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --------------- [ Gazebo Specific ] ---------------
+~/.gazebo/log/*
+/gazebo_models/
+
+# --------------- [ Compiled Files ] ---------------
+*.o
+*.lo
+*.la
+*.al
+*.a
+*.so
+*.so.*
+*.out
